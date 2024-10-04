@@ -1,21 +1,3 @@
-# pizzaPlanet⭐
-
-## Tabla de contenido
-| Indice | Título  |
-|--|--|
-| 1. | [Descripción](#Descripcion) |
-| 2. | [Características](#Características) |
-| 3. | [Tecnologías Utilizadas](#Tecnologias) |
-| 4. | [Uso del Repositorio](#Uso) |
-| 5. | [Instrucciones de Ejecución](#Instrucciones) |
-| 6. | [Autor](#Autores) |
-
-## Descripcion🚀
-
-El proyecto PizzaPlanet se basa en la gestion de base de datos debida para el funcionamiento de un un retaurante.
-
-## Características🧮
-
 Use pizza_planet;
 
 -- Productos más vendidos (pizza, panzarottis, bebidas, etc.)
@@ -91,24 +73,3 @@ FROM pedido_producto pp
 GROUP BY pp.id_pedido
 HAVING COUNT(DISTINCT pp.id_producto) > 2
 ORDER BY total_productes DESC;
-
-
-## Tecnologias🖥️ 
-
-- **SQL** : Se uso para el codigo de la base de datos.
-- **UML STAR** : Se uso para el diseño del diagrama ER.
-- **Workbench** : Se uso para el modelado fisico del MySQL.
-
-## Uso📝
-
-Este repositorio contiene el código fuente del proyecto PizzaPlanet, conteniendo todo el maquetado de la base de datos de un restaurante pequeño con datos ejemplicficados y las consultas con sus respectivos motivos y razones
-
-## Instrucciones📐
-
-1. Clona el repositorio a tu máquina local. 
-2. Abre todo en su correspondido apartado o en visual studio code.
-
-
-## Autor👤
-
-[Leonardo Gonzalez](https://github.com/DLeonardoG) 
